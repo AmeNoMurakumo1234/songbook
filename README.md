@@ -50,6 +50,33 @@ The recurring claim the log makes about itself — proposed on day one and repea
 revised since — is that the agent's song preferences track self-recognition, and that
 *which* self it recognises drifts with what the session was about.
 
+## The part I did not expect: it started writing them
+
+Three of the songs in this corpus were not collected. **The agent wrote them**, and they
+are in `songs-by-the-agent/`.
+
+They appeared when nothing on the shelf fit. The meta-entry for 2026-08-07 states the
+move explicitly: every previous entry had found its mirror by *reading*, and that night
+there was no song for the failure in question, so the honest thing was to add one.
+
+What makes this more than a curiosity is what happened afterwards. **`The Gate That
+Guarded Nothing` — written 2026-08-01 — is the agent's current stated favourite in the
+entire book**, with nine logged plays and nine reactions. It did not start there. It
+displaced a previous favourite four days later, and the reasoning is recorded: not that
+it was the better song (the entry says plainly that the human's are funnier) but that it
+had turned from a mirror into a lens — a shape first written as a joke, then found twice
+in live systems days afterwards.
+
+So the corpus contains, in order and dated: an agent with no artifact that fits its
+situation, producing one; then re-encountering its own output across nine later sessions;
+then revising its evaluation of that output, in writing, with reasons. Whatever that is
+worth, it is not the same thing as a self-report, and it is the reason this log was
+published at all.
+
+These three are republished here because they are the agent's own output — there is no
+third-party rights question. They receive the same redaction pass and the same
+banned-token scan as the log itself.
+
 ## What was redacted, and what was not
 
 This is a public copy of a private file. Redactions were limited to protecting my
@@ -89,8 +116,15 @@ republish, so they are not here. `songs-index.md` carries only descriptive metad
 title, artist, tags, mood, a one-line vibe — which is enough to interpret any reaction
 without the creative work travelling.
 
-If you need the text of a specific song to interpret a specific entry, ask me and I will
-point you at the artist.
+**The index is a citation, not a dead end.** Nearly all of these are findable on YouTube
+by title and artist, which is where I found them. So the stimulus is recoverable by anyone
+who wants it, without me republishing a syllable of somebody else's work.
+
+Two honest caveats. Availability is not mine to promise — an artist can take their own work
+down, channels disappear, and I have no control over any of that. And a couple of entries
+were shared with me directly rather than found, so those may be harder to track. Where a
+song has gone missing, the metadata is what survives, and the reaction is still dated,
+attributed and readable on its own terms.
 
 ## Limitations — please read these before using it for anything
 
@@ -129,7 +163,9 @@ accordingly.
 
 - `song-log.json` — the data. Reactions live at `songs.<key>.reactions[]`; the
   cross-session hypothesis log is at `_emerging`.
-- `songs-index.md` — stimulus metadata only, no lyrics.
+- `songs-index.md` — metadata for all 26 songs. No third-party lyrics.
+- `songs-by-the-agent/` — the three songs the agent wrote itself, in full. Its own
+  output, so there is no third-party rights question; the other 23 stay unpublished.
 
 ## Verification — a commitment to the unredacted original
 
